@@ -1,0 +1,13 @@
+.information{
+    width: 90%;
+    align-self: flex-start;
+    top: 0px;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+@media(max-width:1279px){
+    .information{
+        width: 95%;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,35 @@
+header{
+    height: 100vh;
+    width: 20%;
+    background-color: #39a900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+@media(max-width:1279px){
+    header{
+        width: 28%;
+    }
+}
+
+@media(max-width:920px){
+    header{
+        width: 32%;
+    }
+}
+@media(max-width:768px){
+    header{
+        width: 60%;
+        visibility: hidden;
+        justify-content:space-evenly;
+    }
+    .y-visible{
+        visibility: visible;
+    }
+    .n-visible{
+        visibility: hidden;
+    }
+}

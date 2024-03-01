@@ -1,0 +1,26 @@
+.divNetworks{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.networksList{
+    display: flex;
+    width: 80%;
+}
+.networks{
+    list-style: none;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 20%;
+}
+
+@media(max-width:1280px){
+
+   .divNetworks{
+    width: 100%;
+   }
+   .networks{
+    font-size: 2rem;
+   }
+}

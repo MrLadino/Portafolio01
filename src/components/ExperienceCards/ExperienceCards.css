@@ -1,0 +1,60 @@
+.experience{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.imgXP{
+    width: 11rem;
+    border-radius: 50%;
+    padding-bottom: 0.5rem;
+    height: 10.5rem;
+}
+
+.progressXP {
+    appearance: none;
+}
+  
+.progressXP::-webkit-progress-bar {
+height: 1.3rem;
+background-color: #8cdd53 ;
+border-radius: 1rem;
+}
+
+.progressXP::-webkit-progress-value {
+height: 1.3rem;
+background-color: #2d8501;
+border-radius: 1rem;
+}
+
+.ProgressP{
+    font-size: 1.5rem;
+    margin: 1rem 0 3rem 0;
+}
+
+@media(max-width: 1280px){
+    .imgXP{
+        width: 9rem;
+        height: 9rem;
+    }
+}
+
+@media(max-width:1279px){
+
+    .imgXP{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    .progressXP{
+        width: 7rem;
+    }
+    .ProgressP{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:920px){
+    .experience{
+        width: 8rem;
+    }
+}

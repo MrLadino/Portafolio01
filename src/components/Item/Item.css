@@ -1,0 +1,10 @@
+.itemStyle{
+    text-align: center;
+    list-style: none;
+}
+.linkStyle{
+    text-decoration: none;
+    color: #c1ff95;
+    font-size: 1.8rem;
+    text-shadow: #82d347 2px 1px 0px;
+}

@@ -1,0 +1,28 @@
+#openMenu{
+    display: none;
+}
+#closeMenu{
+    display: none;
+}
+
+@media(max-width:768px){
+    #openMenu{
+        display:inline ;
+        font-size: 2.5rem;
+        color: white;
+        background-color: #39a900;
+        border-radius: 50%;
+        padding: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    #closeMenu{
+        display: inline;
+        color: white;
+        font-size: 2rem;
+        align-self: flex-start;
+        padding-left:1rem;
+        justify-self: flex-start;
+        cursor: pointer;
+    }
+}
