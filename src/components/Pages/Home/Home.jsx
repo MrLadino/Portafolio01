@@ -16,8 +16,7 @@ import javaScript from '../../../assets/javaScript.png'
 import Java from '../../../assets/Java.png'
 import mongodb from '../../../assets/mongodb.png'
 import mysql from '../../../assets/mysql.png'
-import { FaX } from "react-icons/fa6";
-import { RiMenuAddLine } from 'react-icons/ri'; // Corregir la importación
+import { FaX, FaBars } from 'react-icons/fa6';
 import './Home.css'
 
 export const Home = () => {
@@ -46,7 +45,7 @@ export const Home = () => {
   
 
         <Main>
-            <RiMenuAddLine id='openMenu' onClick={toggleMenu} />
+            <FaBars id='openMenu' onClick={toggleMenu} />
             <SectionHeadings id='profile' content='PERFIL'/>
             <MyInformation />
             <SectionHeadings id='Projects' content='PROYECTOS'/>
