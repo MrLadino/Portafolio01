@@ -16,8 +16,7 @@ import javaScript from '../../../assets/javaScript.png'
 import Java from '../../../assets/Java.png'
 import mongodb from '../../../assets/mongodb.png'
 import mysql from '../../../assets/mysql.png'
-import { RiMenuAddLine } from "react-icons/ri";
-import { FaX } from "react-icons/fa6";
+import { RiCloseFill, RiMenuAddLine } from 'react-icons/ri';
 import './Home.css'
 
 export const Home = () => {
@@ -31,7 +30,7 @@ export const Home = () => {
   return (
     <>
         <Header visible={isMenuOpen ? 'y-visible' : 'n-visible'}>
-            <FaX id='closeMenu' onClick={() => setIsMenuOpen(false)}/>
+            <RiCloseFill id='closeMenu' onClick={() => setIsMenuOpen(false)}/>
             <PictureProfile />
             <Navbar>
                 <Item content='Inicio'/>
