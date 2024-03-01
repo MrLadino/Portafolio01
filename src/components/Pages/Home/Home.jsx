@@ -16,7 +16,7 @@ import javaScript from '../../../assets/javaScript.png'
 import Java from '../../../assets/Java.png'
 import mongodb from '../../../assets/mongodb.png'
 import mysql from '../../../assets/mysql.png'
-import { FaX } from 'react-icons/fa';
+import { FaX } from "react-icons/fa6";
 import { RiMenuAddLine } from 'react-icons/ri'; // Corregir la importación
 import './Home.css'
 
