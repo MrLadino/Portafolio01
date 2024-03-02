@@ -20,6 +20,6 @@ main{
 
 @media(max-width:480px){
     main{
-        padding-left: 0;
+        padding-left: 1rem;
     }
 }
