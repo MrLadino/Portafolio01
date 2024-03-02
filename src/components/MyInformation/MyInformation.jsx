@@ -3,6 +3,12 @@ import './MyInformation.css'
 
 export const MyInformation = () => {
   return (
-    <p className='information'>Soy un estudiante de desarrollo de software que cada día quiere aprender más, soy una persona muy dedicada que cuando se fija en una meta trabaja todo lo posible para lograr obtenerla, soy un apasionado de la tecnología desde hace muchos años esto me ha llevado a adquirir conocimientos básicos tanto en software como en hardware, también me gusta hacer deporte como el voleybol, ciclomontañismo entre otros más, una habilidad mis es que mi capacidad de socializar en muy grande pudiendo generar relaciones con personas de una manera muy fácil y agradable, en mi parte técnica me gusta el desarrollo front-end ya que se me da más fácil, pero en las otras ramas como el back-end y las bases de datos me desenvuelvo muy bien </p>
+    <p className='information'>Estudiante apasionado por el desarrollo de software, con un fuerte anhelo por el aprendizaje continuo y la superación personal. Poseo una dedicación inquebrantable a mis objetivos, trabajando con diligencia y tesón hasta alcanzarlos. Mi fascinación por la tecnología, presente desde mi temprana juventud, me ha impulsado a adquirir sólidos conocimientos en software y hardware.
+
+Habilidades blandas:
+
+Capacidad de comunicación excepcional, facilitando la creación de relaciones interpersonales sólidas y agradables con facilidad.
+Trabajo en equipo eficaz, colaborando de forma armoniosa y proactiva para alcanzar metas comunes.
+Actitud proactiva y orientación a resultados, buscando siempre la optimización de procesos y la entrega de soluciones eficientes. </p>
   )
 }
