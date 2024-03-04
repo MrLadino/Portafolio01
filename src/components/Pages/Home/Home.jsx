@@ -17,6 +17,9 @@ import Java from '../../../assets/Java.png'
 import mongodb from '../../../assets/mongodb.png'
 import mysql from '../../../assets/mysql.png'
 import { FaX, FaBars } from 'react-icons/fa6';
+import SuperBikes from '../../../assets/SuperBikes.png'
+import Apptastico from '../../../assets/Apptastico.png'
+import Bleux from '../../../assets/Bleux.png'
 import './Home.css'
 
 export const Home = () => {
@@ -50,15 +53,14 @@ export const Home = () => {
             <MyInformation />
             <SectionHeadings id='Projects' content='PROYECTOS'/>
                 <ContentCards> 
-                    <ProyectsCards titule='Web shop' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repudiandae magnam voluptatibus quas fugiat vero odio, aliquid, dignissimos dolores commodi sit similique. Laborum debitis, aspernatur exercitationem eum similique culpa optio.' />
-                    <ProyectsCards titule='Portafolio' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repudiandae magnam voluptatibus quas fugiat vero odio, aliquid, dignissimos dolores commodi sit similique. Laborum debitis, aspernatur exercitationem eum similique culpa optio. ' />
-                    <ProyectsCards titule='Andres' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repudiandae magnam voluptatibus quas fugiat vero odio, aliquid, dignissimos dolores commodi sit similique. Laborum debitis, aspernatur exercitationem eum similique culpa optio. ' />
+                    <ProyectsCards linkP='https://super-bikes.vercel.app/' titule='SuperBikes' imgP={SuperBikes} description='Creacion de una tienda virtual con funcionamiento de carrito de compras y CRUD basico, la tematica del carrito de compras es sobre motos de alto cilindraje ' />
+                    <ProyectsCards linkP='https://xgomezx.github.io/BLEUX/' titule='BLEUX' imgP={Bleux} description='Proyecto de maquetado usando solamente HTML y CSS puro sin ningun uso de frameworks' />
+                    <ProyectsCards linkP='https://xgomezx.github.io/Apptastico/' titule='Apptasctico' imgP={Apptastico} description='Proyecto de maquetado usando solamente HTML y CSS puro sin ningun uso de frameworks' />
                 </ContentCards>
             <SectionHeadings id='References' content='REFERENCIAS'/>
                 <ContentCards> 
-                    <ReferencesCard name='Catalina Durango' position='Administradora'  phone='1234566567' email='cata@gmail.com' />
-                    <ReferencesCard name='Catalina Durango' position='Administradora'  phone='1234566567' email='cata@gmail.com' />
-                    <ReferencesCard name='Catalina Durango' position='Administradora'  phone='1234566567' email='cata@gmail.com' />
+                    <ReferencesCard name='Catalina Durango' position='Administradora'  phone='3196414506' email='arrieros1121@gmail.com' />
+                    <ReferencesCard name='Valentina Gomez Gutierrez' position='Mesera'  phone='3145934518' email='N/A' />
                 </ContentCards>
             <SectionHeadings id='Experience' content='EXPERIENCIA'/>
                 <ContentCards> 

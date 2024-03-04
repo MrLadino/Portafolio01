@@ -1,15 +1,14 @@
 import React from 'react'
-import ktm from '../../assets/Ktm.jpg'
 import './ProyectsCards.css'
 
-export const ProyectsCards = ({titule,description}) => {
+export const ProyectsCards = ({titule,description,linkP,imgP}) => {
   return (
     <div className='card'>
-        <img className='imgCard' src={ktm} alt="" />
+        <img className='imgCard' src={imgP} alt="" />
         <div className='infoCard'>
             <h2>{titule}</h2>
             <p className='proyectDescription'>{description}</p>
-            <a className='proyectLink' href="#">Ir a proyecto</a>
+            <a target='blanck' className='proyectLink' href={linkP}>Ir a proyecto</a>
         </div>
     </div>
   )

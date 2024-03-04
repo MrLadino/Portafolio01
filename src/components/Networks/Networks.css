@@ -14,6 +14,9 @@
     text-align: center;
     width: 20%;
 }
+.linkNet{
+    color: white;
+}
 
 @media(max-width:1280px){
 
