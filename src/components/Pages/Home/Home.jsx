@@ -60,7 +60,7 @@ export const Home = () => {
             <SectionHeadings id='References' content='REFERENCIAS'/>
                 <ContentCards> 
                     <ReferencesCard name='Catalina Durango' position='Administradora'  phone='3196414506' email='arrieros1121@gmail.com' />
-                    <ReferencesCard name='Valentina Gomez Gutierrez' position='Mesera'  phone='3145934518' email='N/A' />
+                    <ReferencesCard name='Valentina Gomez Gutierrez' position='Estudiante'  phone='3145934518' email='N/A' />
                 </ContentCards>
             <SectionHeadings id='Experience' content='EXPERIENCIA'/>
                 <ContentCards> 
