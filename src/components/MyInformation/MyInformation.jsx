@@ -14,12 +14,12 @@ export const MyInformation = () => {
 
     Especialista en desarrollo front-end, con habilidad y adquisiendo conocimiento dobre el framework React. <br />
     Competencia en back-end y bases de datos, capaz de desarrollar aplicaciones web robustas y escalables. <br />
-    Amplio conocimiento de lenguajes de programación (Java, JavaScript) y herramientas de desarrollo (Git). <br />
+    Medio conocimiento de lenguajes de programación (Java, JavaScript) y herramientas de desarrollo (Git). <br />
     Capacidad de aprendizaje rápido y adaptación a nuevas tecnologías, permitiéndome afrontar con éxito nuevos desafíos. <br /><br /> 
     
     Intereses adicionales: <br />
 
-    Practicante apasionado de deportes como voleibol y ciclomontañismo, fomentando mi disciplina, liderazgo y trabajo en equipo. <br />
+    Practicante de natación y entrenamineto en gimnasio, fomentando mi disciplina, liderazgo y trabajo en equipo. <br />
     Persona inquieta y curiosa, con un interés constante por explorar nuevas áreas de conocimiento y ampliar mis horizontes.</p>
 
   )

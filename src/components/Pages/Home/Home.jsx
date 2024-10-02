@@ -17,7 +17,6 @@ import Java from '../../../assets/Java.png'
 import mongodb from '../../../assets/mongodb.png'
 import mysql from '../../../assets/mysql.png'
 import { FaX, FaBars } from 'react-icons/fa6';
-import SuperBikes from '../../../assets/SuperBikes.png'
 import Apptastico from '../../../assets/Apptastico.png'
 import Bleux from '../../../assets/Bleux.png'
 import './Home.css'
@@ -53,15 +52,14 @@ export const Home = () => {
             <MyInformation />
             <SectionHeadings id='Projects' content='PROYECTOS'/>
                 <ContentCards> 
-                    <ProyectsCards linkP='https://super-bikes.vercel.app/' titule='SuperBikes' imgP={SuperBikes} description='Creacion de una tienda virtual con funcionamiento de carrito de compras y CRUD basico, la tematica del carrito de compras es sobre motos de alto cilindraje ' />
                     <ProyectsCards linkP='https://xgomezx.github.io/BLEUX/' titule='BLEUX' imgP={Bleux} description='Proyecto de maquetado usando solamente HTML y CSS puro sin ningun uso de frameworks' />
                     <ProyectsCards linkP='https://xgomezx.github.io/Apptastico/' titule='Apptasctico' imgP={Apptastico} description='Proyecto de maquetado usando solamente HTML y CSS puro sin ningun uso de frameworks' />
                 </ContentCards>
             <SectionHeadings id='References' content='REFERENCIAS'/>
                 <ContentCards> 
-                    <ReferencesCard name='Catalina Durango' position='Administradora'  phone='3196414506' email='arrieros1121@gmail.com' />
-                    <ReferencesCard name='Valentina Gomez Gutierrez' position='Estudiante'  phone='3145934518' email='N/A' />
-                </ContentCards>
+                    <ReferencesCard name='Rocio Ocampo' position='Ama de casa'  phone='3206698029' email='mariarocioocampo1223@gmail.com' />
+                    <ReferencesCard name='Noman Ladino' position='Administrador Agricola'  phone='3205133047' email='normanladino4@gmail.com' />
+                </ContentCards>
             <SectionHeadings id='Experience' content='EXPERIENCIA'/>
                 <ContentCards> 
                     <ExperienceCards img={javaScript} valueP='70' progress='Intermedio' />
